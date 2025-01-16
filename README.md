@@ -1,5 +1,5 @@
 ---
-title: "js-GSAP - JavaScript GreenSock Animation Platform"
+title: "JS-GSAP - JavaScript GreenSock Animation Platform"
 author: "bbauska"
 date created: "12/29/2024 10+pm"
 date last editted: "12/29/2024 10+pm"

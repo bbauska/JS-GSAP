@@ -99,19 +99,17 @@ state { x: 100 }.
 **Tip:** x is a <a href="https://gsap.com/resources/get-started/#transform-shorthand">
 transform shorthand</a> provided by GSAP, equivalent to transform: translateX(100px).
 
-https://codepen.io/slax57/pen/vYMBPGV
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 01.  (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 01. green square w/rounded corners, move left to right ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <a href="https://codepen.io/slax57/pen/vYMBPGV">
 <img src="./images/image001.png"
-  title=""
-  alt="."
+  title="Green square with rounded corners, move left to right"
+  alt="Green square with rounded corners, move left to right."
   style="width:6.5in;" />
 </a></p>
 <!-- (./images/image001.png){width="6.5in" height="2.7263888888888888in"} -->
-
-https://codepen.io/slax57/pen/vYMBPGV
+<!-- https://codepen.io/slax57/pen/vYMBPGV  -->
 
 We did not provide a duration, so by default the animation will take 0.5
 seconds.
@@ -135,17 +133,16 @@ instance use the &quot;elastic&quot; ease function:
 
 <pre>gsap.to(&quot;.box&quot;, { x: 100, duration: 2, delay: 1, ease: &quot;elastic&quot; });</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 02.  (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 02. green square/rounded corners elastic bounce left to right ~~~~~~~~~~~~~~~-->
 <p align="left">
 <a href="https://codepen.io/slax57/pen/KKYPEgV">
 <img src="./images/image002.png"
-  title=""
-  alt="."
+  title="Green square/rounded corners elastic bounce left to right"
+  alt="Green square/rounded corners elastic bounce left to right."
   style="width:6.5in;" />
 </a></p>
 <!-- (./images/image002.png){width="6.5in" height="2.717361111111111in"} -->
-
-https://codepen.io/slax57/pen/KKYPEgV
+<!-- https://codepen.io/slax57/pen/KKYPEgV  -->
 
 <h4>gsap.from()</h4>
 
@@ -171,17 +168,16 @@ gsap.from(&quot;.box&quot;, { x: -100, autoAlpha: 0 });
 **Tip:** autoAlpha is another <a href="https://gsap.com/resources/get-started/#transform-shorthand">
 transform shorthand</a>), for both opacity and visibility.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 03.  (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 03. green square/rounded corners slide left to right ~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <a href="https://codepen.io/slax57/pen/qBwWvqo">
 <img src="./images/image003.png"
-  title=""
-  alt="."
+  title="Green square/rounded corners slide left to right"
+  alt="Green square/rounded corners slide left to right."
   style="width:6.5in;" />
 </a></p>
 <!-- (./images/image003.png){width="6.5in" height="2.717361111111111in"} -->
-
-https://codepen.io/slax57/pen/qBwWvqo
+<!-- https://codepen.io/slax57/pen/qBwWvqo  -->
 
 <h4>gsap.fromTo()</h4>
 
@@ -218,17 +214,16 @@ gsap.to(&quot;.box&quot;, { rotation: 360, repeat: -1, duration: 5, ease: &quot;
 **Tip:** <a href="https://marmelab.com/blog/2024/03/27/infinitely">repeat: -1</a> makes an animation
 repeat infinitely.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 04. green square/rounded corners rotate clockwise ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <a href="https://codepen.io/slax57/pen/ExJYMWw">
 <img src="./images/image004.png"
-  title=""
-  alt="."
+  title="Green square/rounded corners rotate clockwise"
+  alt="Green square/rounded corners rotate clockwise."
   style="width:6.5in;" />
 </a></p>
 <!-- (./images/image004.png){width="6.5in" height="2.717361111111111in"} -->
-
-https://codepen.io/slax57/pen/ExJYMWw
+<!-- https://codepen.io/slax57/pen/ExJYMWw  -->
 
 <h4>gsap.timeline()</h4>
 
@@ -245,17 +240,16 @@ tl.from(&quot;.logo&quot;, { duration: 2.5, opacity: 0, scale: 0.3 }); // Instea
 tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }); // Instead of gsap.from()
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 05. blue logo, green circle, logo grow, green circle moves up so parallel ~~~~~~~~~-->
 <p align="left">
 <a href="https://codepen.io/slax57/pen/BaEBbYa"
 <img src="./images/image005.png"
-  title=""
-  alt="."
+  title="Blue logo, green circle, logo grow, green circle moves up so parallel"
+  alt="Blue logo, green circle, logo grow, green circle moves up so parallel."
   style="width:6.5in;" />
 </a></p>
 <!-- (./images/image005.png){width="6.5in" height="2.7083333333333335in"} -->
-
-https://codepen.io/slax57/pen/BaEBbYa
+<!-- https://codepen.io/slax57/pen/BaEBbYa  -->
 
 The main advantage of this syntax is that I can now change the duration
 of the animation of &quot;.logo&quot;, and it will automatically keep the
@@ -274,19 +268,18 @@ tl.from(&quot;.logo&quot;, { duration: 2.5, opacity: 0, scale: 0.3 });
 tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }, &quot;+=2&quot;); //
 </pre>
 
-Starts this animation 2 seconds past the end of the timeline (creates a gap)
+Starts this animation 2 seconds past the end of the timeline (creates a gap).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 06. blue logo, green circle, logo grow, green circle moves up so parallel ~~~~~~~~~-->
 <p align="left">
 <a href="https://codepen.io/slax57/pen/YzMKMGz">
 <img src="./images/image006.png"
-  title=""
-  alt="."
+  title="Blue squares (3) rotate clockwise at differing speeds"
+  alt="Blue squares (3) rotate clockwise at differing speeds."
   style="width:6.5in;" />
 </a></p>
 <!-- ./images/image006.png){width="6.5in" height="2.6993055555555556in"} -->
-
-https://codepen.io/slax57/pen/YzMKMGz
+<!-- https://codepen.io/slax57/pen/YzMKMGz  -->
 
 This extra parameter is called the <a href="https://gsap.com/docs/v3/GSAP/Timeline#positioning-animations-in-a-timeline">position parameter</a>,
 and accepts many syntaxes to accommodate for all use cases:
@@ -340,17 +333,16 @@ svgRectangles.forEach((rect, i) =&gt; {
 });
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 07. blue squares (3) rotate clockwise at differing speeds ~~~~~~~~~~~~~~~~~-->
 <p align="left">
 <a href="https://codepen.io/slax57/pen/OJGLGmb">
 <img src="./images/image007.png"
-  title="Codepen.io: "
-  alt="Codepen.io: ."
+  title="Blue squares (3) rotate clockwise at differing speeds"
+  alt="Blue squares (3) rotate clockwise at differing speeds."
   style="width:6.5in;" />
 </a></p>
 <!-- ./images/image007.png){width="6.5in" height="2.717361111111111in"} -->
-
-https://codepen.io/slax57/pen/OJGLGmb
+<!-- https://codepen.io/slax57/pen/OJGLGmb  -->
 
 <h3>Conclusion</h3>
 

@@ -3,6 +3,7 @@ title: "JS-GSAP - JavaScript GreenSock Animation Platform"
 author: "bbauska"
 date created: "12/29/2024 10+pm"
 date last editted: "12/29/2024 10+pm"
+date last editted: "5/16/2025 10+pm"
 output: 
   markdown:
     with some style
@@ -101,12 +102,13 @@ transform shorthand</a> provided by GSAP, equivalent to transform: translateX(
 https://codepen.io/slax57/pen/vYMBPGV
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 01.  (xx) ~~~~~~~~~~~~~~~~~~~-->
-<p align="left">
+<p align="center">
+<a href="https://codepen.io/slax57/pen/vYMBPGV">
 <img src="./images/image001.png"
   title=""
   alt="."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- (./images/image001.png){width="6.5in" height="2.7263888888888888in"} -->
 
 https://codepen.io/slax57/pen/vYMBPGV
@@ -135,11 +137,12 @@ instance use the &quot;elastic&quot; ease function:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 02.  (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
+<a href="https://codepen.io/slax57/pen/KKYPEgV">
 <img src="./images/image002.png"
   title=""
   alt="."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- (./images/image002.png){width="6.5in" height="2.717361111111111in"} -->
 
 https://codepen.io/slax57/pen/KKYPEgV
@@ -170,11 +173,12 @@ transform shorthand</a>), for both opacity and visibility.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 03.  (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
+<a href="https://codepen.io/slax57/pen/qBwWvqo">
 <img src="./images/image003.png"
   title=""
   alt="."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- (./images/image003.png){width="6.5in" height="2.717361111111111in"} -->
 
 https://codepen.io/slax57/pen/qBwWvqo
@@ -216,11 +220,12 @@ repeat infinitely.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
+<a href="https://codepen.io/slax57/pen/ExJYMWw">
 <img src="./images/image004.png"
   title=""
   alt="."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- (./images/image004.png){width="6.5in" height="2.717361111111111in"} -->
 
 https://codepen.io/slax57/pen/ExJYMWw
@@ -242,11 +247,12 @@ tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }); // Instead of
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
+<a href="https://codepen.io/slax57/pen/BaEBbYa"
 <img src="./images/image005.png"
   title=""
   alt="."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- (./images/image005.png){width="6.5in" height="2.7083333333333335in"} -->
 
 https://codepen.io/slax57/pen/BaEBbYa
@@ -272,11 +278,12 @@ Starts this animation 2 seconds past the end of the timeline (creates a gap)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
+<a href="https://codepen.io/slax57/pen/YzMKMGz">
 <img src="./images/image006.png"
   title=""
   alt="."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- ./images/image006.png){width="6.5in" height="2.6993055555555556in"} -->
 
 https://codepen.io/slax57/pen/YzMKMGz
@@ -335,11 +342,12 @@ svgRectangles.forEach((rect, i) =&gt; {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
+<a href="https://codepen.io/slax57/pen/OJGLGmb">
 <img src="./images/image007.png"
   title="Codepen.io: "
   alt="Codepen.io: ."
   style="width:6.5in;" />
-</p>
+</a></p>
 <!-- ./images/image007.png){width="6.5in" height="2.717361111111111in"} -->
 
 https://codepen.io/slax57/pen/OJGLGmb

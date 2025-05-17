@@ -29,9 +29,9 @@ encountered some tricky parts.</p>
 </ol>
 
 <p>Let&apos;s get started with a quick overview of GSAP.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>What is GSAP?</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><a href="https://gsap.com/">GSAP</a> (for GreenSock Animation Platform) is a
 JavaScript library that allows to animate elements in a webpage. It
 makes it possible to create complex and performant animations, while yet
@@ -46,23 +46,23 @@ physics.</p>
 of what this library can do, it&apos;s amazing!</p>
 
 <p>Now that you are, hopefully, hyped up just like I am, let&apos;s dive in!</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Main Concepts</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this section, I&apos;ll cover two of the most basic concepts introduced
 by the library.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Tween</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Probably the first concept you will come across when reading the GSAP
 docs are <b>tweens</b>. The term tween comes from the word <i>between</i>, as a
 tween is an object describing an animation <i>between</i> a <b>from</b> state
 and a <b>to</b> state. It also holds the <b>target</b> (the object to
 animate), and any other properties describing the animation, like its
 duration, or the easing function used to calculate mid-animation values.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Timeline</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Basically, the <b>timeline</b> answers the following question: how can I
 trigger my animations in sequence, or relative to one another, without
 having to calculate all the <i>delays</i> myself? The solution is to use a
@@ -71,22 +71,22 @@ tweens should be placed in the timeline with the position parameter. The
 timeline can then be manipulated (play, pause, seek a specific frame,
 &hellip;) as a whole without having to manage the playhead for all tweens
 manually.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>PLAYHEAD</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 &vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;-timeline&dash;&dash;&dash;&dash;-&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;-&vert;
 &vert;&dash;-tween1&dash;-&vert;&dash;&dash;&dash;&dash;-tween2&dash;&dash;&dash;&dash;-&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;-&vert;
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Syntax</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this section, I will go through some of the code syntaxes that I
 found most useful. But be sure to check out the <a href="https://gsap.com/resources/get-started">GSAP
 docs</a> for more features and detailed examples.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>gsap.to()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>To create a tween, it can be as simple as:</p>
 
 <pre>gsap.to(&quot;.box&quot;, { x: 100 });</pre>
@@ -143,8 +143,9 @@ instance use the &quot;elastic&quot; ease function:</p>
 <!-- (./images/image002.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/KKYPEgV  -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>gsap.from()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The <b>gsap.to()</b> function has a twin (not to be confused with tween! 😁️)
 function: <b>gsap.from()</b>. It works exactly the same way. The only
 difference is that, instead of animating from the element&apos;s current
@@ -178,8 +179,9 @@ transform shorthand</a>), for both opacity and visibility.</p>
 <!-- (./images/image003.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/qBwWvqo  -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>gsap.fromTo()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now that we&apos;ve covered the <b>gsap.to()</b> and <b>gsap.from()</b> functions, you can
 easily guess what the <b>gsap.fromTo()</b> function does. It can be useful in
 certain cases to specify both a <b>from</b> and a <b>to</b> state, for
@@ -196,9 +198,9 @@ if (shouldAnimate) {
   gsap.fromTo(&quot;.box&quot;, { opacity: 0 }, { opacity: 0.8 });
 }
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>gsap.set()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>gsap.set()</b> is the last function returning a <i>tween</i> that I&apos;d like to
 cover. In essence, it&apos;s equivalent to calling <b>gsap.to()</b> with a duration
 of 0: it allows to apply a state immediately to an element. This can be
@@ -224,8 +226,9 @@ repeat infinitely.</p>
 <!-- (./images/image004.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/ExJYMWw  -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>gsap.timeline()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>As the name suggests, gsap.timeline() allows to create a <b>timeline</b>.</p>
 
 <p>In the following example, the &quot;.circle&quot; element will start animate
@@ -235,11 +238,10 @@ the animations in sequence.</p>
 <pre>
 const tl = gsap.timeline();
 tl.from(&quot;.logo&quot;, { duration: 2.5, opacity: 0, scale: 0.3 }); // Instead of gsap.from()
-
 tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }); // Instead of gsap.from()
 </pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2> Image 05 supposedly here</h2>
+<h2>Image 05 supposedly here</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 05. blue logo, green circle, logo grow, green circle moves up so parallel ~~~~~~~~~-->
@@ -266,11 +268,11 @@ animation should be inserted.</p>
 <pre>
 const tl = gsap.timeline();
 tl.from(&quot;.logo&quot;, { duration: 2.5, opacity: 0, scale: 0.3 });
-
 tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }, &quot;+=2&quot;); //
 </pre>
 
 <p>Starts this animation 2 seconds past the end of the timeline (creates a gap).</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Image 06 here</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 06. blue logo, green circle, logo grow, green circle moves up so parallel ~~~~~~~~~-->
@@ -302,9 +304,9 @@ and accepts many syntaxes to accommodate for all use cases:</p>
 steps and experiment with the timing of each step independently.</p>
 
 <p><b>Tip:</b> Timelines can also be nested.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>gsap.utils.toArray()</h4>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This utility method allows to get an array of elements matching a selector.</p>
 
 <p>It can be useful to:</p>
@@ -347,8 +349,9 @@ svgRectangles.forEach((rect, i) =&gt; {
 <!-- ./images/image007.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/OJGLGmb  -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Conclusion</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This covers some of the basics of GSAP. With this knowledge, you should
 already have enough to start creating your own animations.</p>
 

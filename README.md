@@ -274,8 +274,8 @@ Starts this animation 2 seconds past the end of the timeline (creates a gap).
 <p align="left">
 <a href="https://codepen.io/slax57/pen/YzMKMGz">
 <img src="./images/image006.png"
-  title="Blue squares (3) rotate clockwise at differing speeds"
-  alt="Blue squares (3) rotate clockwise at differing speeds."
+  title="Blue logo, green circle, logo grow, green circle moves up so parallel"
+  alt="Blue logo, green circle, logo grow, green circle moves up so parallel."
   style="width:6.5in;" />
 </a></p>
 <!-- ./images/image006.png){width="6.5in" height="2.6993055555555556in"} -->

@@ -32,15 +32,13 @@ encountered some tricky parts.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>What is GSAP?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><a href="https://gsap.com/">GSAP</a> (for GreenSock Animation Platform) is a
-JavaScript library that allows to animate elements in a webpage. It
-makes it possible to create complex and performant animations, while yet
-offering a very friendly and versatile API.</p>
+<p><a href="https://gsap.com/">GSAP</a> (for GreenSock Animation Platform) is a JavaScript 
+library that allows to animate elements in a webpage. It makes it possible to create complex 
+and performant animations, while yet offering a very friendly and versatile API.</p>
 
-<p>It also comes with a variety of plugins, some of which are paid,
-offering powerful and customizable tools to help animate almost
-anything, from text to SVG, and even include some effects based on
-physics.</p>
+<p>It also comes with a variety of plugins, some of which are paid, offering powerful and 
+customizable tools to help animate almost anything, from text to SVG, and even include 
+some effects based on physics.</p>
 
 <p>Just have a look at their <a href="https://gsap.com/">homepage</a> to get a glimpse
 of what this library can do, it&apos;s amazing!</p>
@@ -49,28 +47,25 @@ of what this library can do, it&apos;s amazing!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Main Concepts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In this section, I&apos;ll cover two of the most basic concepts introduced
-by the library.</p>
+<p>In this section, I&apos;ll cover two of the most basic concepts introduced by the 
+library.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Tween</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Probably the first concept you will come across when reading the GSAP
-docs are <b>tweens</b>. The term tween comes from the word <i>between</i>, as a
-tween is an object describing an animation <i>between</i> a <b>from</b> state
-and a <b>to</b> state. It also holds the <b>target</b> (the object to
-animate), and any other properties describing the animation, like its
-duration, or the easing function used to calculate mid-animation values.</p>
+<p>Probably the first concept you will come across when reading the GSAP docs are <b>tweens</b>. 
+The term tween comes from the word <i>between</i>, as a tween is an object describing an animation 
+<i>between</i> a <b>from</b> state and a <b>to</b> state. It also holds the <b>target</b> (the 
+object to animate), and any other properties describing the animation, like its duration, or the 
+easing function used to calculate mid-animation values.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Timeline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Basically, the <b>timeline</b> answers the following question: how can I
-trigger my animations in sequence, or relative to one another, without
-having to calculate all the <i>delays</i> myself? The solution is to use a
-timeline to group the tweens together, optionally specifying where the
-tweens should be placed in the timeline with the position parameter. The
-timeline can then be manipulated (play, pause, seek a specific frame,
-&hellip;) as a whole without having to manage the playhead for all tweens
-manually.</p>
+<p>Basically, the <b>timeline</b> answers the following question: how can I trigger my animations 
+in sequence, or relative to one another, without having to calculate all the <i>delays</i> myself? 
+The solution is to use a timeline to group the tweens together, optionally specifying where the
+tweens should be placed in the timeline with the position parameter. The timeline can then be 
+manipulated (play, pause, seek a specific frame, &hellip;) as a whole without having to manage 
+the playhead for all tweens manually.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>PLAYHEAD</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -100,13 +95,14 @@ state { x: 100 }.</p>
 transform shorthand</a> provided by GSAP, equivalent to transform: translateX(100px).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 01. green square w/rounded corners, move left to right ~~~~~~~~~~~~~~~~~~-->
-<p align="center">
-<a href="https://codepen.io/slax57/pen/vYMBPGV">
-<img src="./images/image001.png"
-  title="Green square with rounded corners, move left to right"
-  alt="Green square with rounded corners, move left to right."
-  style="width:6.5in;" />
-</a></p>
+<p align="left">
+  <a href="https://codepen.io/slax57/pen/vYMBPGV">
+    <img src="./images/image001.png"
+      title="Green square with rounded corners, move left to right"
+      alt="Green square with rounded corners, move left to right."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- (./images/image001.png){width="6.5in" height="2.7263888888888888in"} -->
 <!-- https://codepen.io/slax57/pen/vYMBPGV  -->
 
@@ -134,12 +130,13 @@ instance use the &quot;elastic&quot; ease function:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 02. green square/rounded corners elastic bounce left to right ~~~~~~~~~~~~~~~-->
 <p align="left">
-<a href="https://codepen.io/slax57/pen/KKYPEgV">
-<img src="./images/image002.png"
-  title="Green square/rounded corners elastic bounce left to right"
-  alt="Green square/rounded corners elastic bounce left to right."
-  style="width:6.5in;" />
-</a></p>
+  <a href="https://codepen.io/slax57/pen/KKYPEgV">
+    <img src="./images/image002.png"
+      title="Green square/rounded corners elastic bounce left to right"
+      alt="Green square/rounded corners elastic bounce left to right."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- (./images/image002.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/KKYPEgV  -->
 
@@ -170,12 +167,13 @@ transform shorthand</a>), for both opacity and visibility.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 03. green square/rounded corners slide left to right ~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
-<a href="https://codepen.io/slax57/pen/qBwWvqo">
-<img src="./images/image003.png"
-  title="Green square/rounded corners slide left to right"
-  alt="Green square/rounded corners slide left to right."
-  style="width:6.5in;" />
-</a></p>
+  <a href="https://codepen.io/slax57/pen/qBwWvqo">
+    <img src="./images/image003.png"
+      title="Green square/rounded corners slide left to right"
+      alt="Green square/rounded corners slide left to right."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- (./images/image003.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/qBwWvqo  -->
 
@@ -183,15 +181,13 @@ transform shorthand</a>), for both opacity and visibility.</p>
 <h4>gsap.fromTo()</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now that we&apos;ve covered the <b>gsap.to()</b> and <b>gsap.from()</b> functions, you can
-easily guess what the <b>gsap.fromTo()</b> function does. It can be useful in
-certain cases to specify both a <b>from</b> and a <b>to</b> state, for
-example, to apply a style as soon as the JavaScript is loaded, and
-animate from it immediately after.</p>
+easily guess what the <b>gsap.fromTo()</b> function does. It can be useful in certain cases to 
+specify both a <b>from</b> and a <b>to</b> state, for example, to apply a style as soon as the 
+JavaScript is loaded, and animate from it immediately after.</p>
 
-<p>In the following example, if the animation is enabled, the element will
-first have its opacity set to 0, and then will progressively reach an
-opacity of 0.8. It the animation is disabled, the element will keep its
-opacity of 1.</p>
+<p>In the following example, if the animation is enabled, the element will first have its 
+opacity set to 0, and then will progressively reach an opacity of 0.8. It the animation is 
+disabled, the element will keep its opacity of 1.</p>
 
 <pre>
 if (shouldAnimate) {
@@ -217,12 +213,13 @@ repeat infinitely.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 04. green square/rounded corners rotate clockwise ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="left">
-<a href="https://codepen.io/slax57/pen/ExJYMWw">
-<img src="./images/image004.png"
-  title="Green square/rounded corners rotate clockwise"
-  alt="Green square/rounded corners rotate clockwise."
-  style="width:6.5in;" />
-</a></p>
+  <a href="https://codepen.io/slax57/pen/ExJYMWw">
+    <img src="./images/image004.png"
+      title="Green square/rounded corners rotate clockwise"
+      alt="Green square/rounded corners rotate clockwise."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- (./images/image004.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/ExJYMWw  -->
 
@@ -243,15 +240,15 @@ tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }); // Instead of
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Image 05 supposedly here</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 05. blue logo, green circle, logo grow, green circle moves up so parallel ~~~~~~~~~-->
 <p align="left">
-<a href="https://codepen.io/slax57/pen/BaEBbYa"
-<img src="./images/image005.png"
-  title="Blue logo, green circle, logo grow, green circle moves up so parallel"
-  alt="Blue logo, green circle, logo grow, green circle moves up so parallel."
-  style="width:6.5in;" />
-</a></p>
+  <a href="https://codepen.io/slax57/pen/BaEBbYa" 
+    <img src="./images/image005.png"
+      title="Blue logo, green circle, logo grow, green circle moves up so parallel"
+      alt="Blue logo, green circle, logo grow, green circle moves up so parallel."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- (./images/image005.png){width="6.5in" height="2.7083333333333335in"} -->
 <!-- https://codepen.io/slax57/pen/BaEBbYa  -->
 
@@ -277,12 +274,13 @@ tl.from(&quot;.circle&quot;, { duration: 1, opacity: 0, y: 150 }, &quot;+=2&quot
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~ 06. blue logo, green circle, logo grow, green circle moves up so parallel ~~~~~~~~~-->
 <p align="left">
-<a href="https://codepen.io/slax57/pen/YzMKMGz">
-<img src="./images/image006.png"
-  title="Blue logo, green circle, logo grow, green circle moves up so parallel"
-  alt="Blue logo, green circle, logo grow, green circle moves up so parallel."
-  style="width:6.5in;" />
-</a></p>
+  <a href="https://codepen.io/slax57/pen/YzMKMGz">
+    <img src="./images/image006.png"
+      title="Blue logo, green circle, logo grow, green circle moves up so parallel"
+      alt="Blue logo, green circle, logo grow, green circle moves up so parallel."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- ./images/image006.png){width="6.5in" height="2.6993055555555556in"} -->
 <!-- https://codepen.io/slax57/pen/YzMKMGz  -->
 
@@ -340,12 +338,13 @@ svgRectangles.forEach((rect, i) =&gt; {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 07. blue squares (3) rotate clockwise at differing speeds ~~~~~~~~~~~~~~~~~-->
 <p align="left">
-<a href="https://codepen.io/slax57/pen/OJGLGmb">
-<img src="./images/image007.png"
-  title="Blue squares (3) rotate clockwise at differing speeds"
-  alt="Blue squares (3) rotate clockwise at differing speeds."
-  style="width:6.5in;" />
-</a></p>
+  <a href="https://codepen.io/slax57/pen/OJGLGmb">
+    <img src="./images/image007.png"
+      title="Blue squares (3) rotate clockwise at differing speeds"
+      alt="Blue squares (3) rotate clockwise at differing speeds."
+      style="width:6.5in;" />
+  </a>
+</p>
 <!-- ./images/image007.png){width="6.5in" height="2.717361111111111in"} -->
 <!-- https://codepen.io/slax57/pen/OJGLGmb  -->
 
